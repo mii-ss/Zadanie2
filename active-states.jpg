@@ -1,0 +1,199 @@
+@media screen and (min-width:801px) and (max-width:2180px) {
+body{
+    background-image: url('pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    height: 200px;
+}
+.diva{
+    margin-left: 720px;
+    margin-right: 726px;
+    margin-top: 150px;
+    place-items: center;
+    align-items: center;
+    align-self: center;
+    background-color: rgb(255, 255, 255);
+    border: 14px;
+    border-color: aliceblue;
+    border-radius: 20px;
+    padding-bottom: 50px;
+    overflow: hidden;
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.12);
+}
+body{
+    background-image: url('./image/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    background-size: cover;
+    font-family:"Red Hat Display", sans-serif; 
+    font-size: 16px; 
+    text-align: center; 
+   }
+   header{
+    font-size: 25px;
+    font-weight: bold;
+   }
+   p{
+    font-weight: bold;
+    color:rgb(123, 123, 123);
+    width: 350px;
+   }
+   button{
+    border-radius: 10px;
+    background-color: rgb(52, 52, 204);
+    color:azure;
+    font-family:"Red Hat Display", sans-serif; 
+    font-size: 16px; 
+    text-align: center; 
+    font-weight: bold;
+    border: rgb(52, 52, 204);
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 1px 15px 15px rgba(0, 0, 0, 0.12);
+    height: 60px;
+   }
+    .call{
+        display: flex;
+    }
+    .miss{
+        color:gray;
+        font-weight: bold;
+    }
+    .brd {
+    width: 320px;
+    background: #f6f6f6;
+    border-radius: 15px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+
+  .b {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .till {
+    font-weight: 600;
+    color: #1d1d1f;
+  }
+
+  .plata {
+    color: #6e6e73;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width:800px) {
+    body{
+    background-image: url('pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    height: 200px;
+}
+.diva{
+    place-items: center;
+    margin-top: 150px;
+    align-items: center;
+    align-self: center;
+    background-color: rgb(255, 255, 255);
+    border: 14px;
+    border-color: aliceblue;
+    border-radius: 20px;
+    padding-bottom: 50px;
+    overflow: hidden;
+    box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.12);
+}
+.call{
+    display: flex;
+}
+.miss{
+    color:gray;
+    font-weight: bold;
+}
+.brd {
+    width: 320px;
+    background: #f6f6f6;
+    border-radius: 15px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+  }
+
+  .b {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .till {
+    font-weight: 600;
+    color: #1d1d1f;
+  }
+
+  .plata {
+    color: #6e6e73;
+    font-size: 14px;
+  }
+   body{
+    background-image: url('./image/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    background-size: cover;
+    font-family:"Red Hat Display", sans-serif; 
+    font-size: 16px; 
+    text-align: center; 
+   }
+   header{
+    font-size: 25px;
+    font-weight: bold;
+   }
+   p{
+    font-weight: bold;
+    color:rgb(123, 123, 123);
+    width: 350px;
+  
+   }
+   button{
+    border-radius: 10px;
+    background-color: rgb(52, 52, 204);
+    color:azure;
+    font-family:"Red Hat Display", sans-serif; 
+    font-size: 16px; 
+    text-align: center; 
+    font-weight: bold;
+    border: rgb(52, 52, 204);
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 1px 15px 15px rgba(0, 0, 0, 0.12);
+    height: 60px;
+   }
+}
